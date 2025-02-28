@@ -18,7 +18,7 @@ export default function List_item({ listItem }) {
     console.log(children);
 
     return (
-        <li className="">
+        <li className="ml-2 mb-6">
             <div className="flex items-center gap-2">
             <p>{listItem.label}</p>
             {
